@@ -2,7 +2,7 @@ local util = require 'lspconfig.util'
 
 return {
   default_config = {
-    cmd = { 'ScLsp' },
+    cmd = { 'sclsp' },
     filetypes = { 'sc' },
     root_dir = function(fname)
       return util.root_pattern('sc_config.txt')(fname)
