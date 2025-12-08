@@ -6,6 +6,6 @@
 return {
   cmd = { 'sclsp' },
   filetypes = { 'sc' },
-  root_markers = { 'sc_config.txt' },
+  root_markers = { 'scope.conf' },
   single_file_support = true,
 }
