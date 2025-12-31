@@ -5,7 +5,7 @@
 ---@type vim.lsp.Config
 return {
   cmd = { 'scope-lsp' },
-  filetypes = { 'sc' },
+  filetypes = { 'scope' },
   root_markers = { 'scope.conf' },
   single_file_support = true,
 }
